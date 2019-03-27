@@ -1,0 +1,444 @@
+/*
+ Theme Name:   Child Theme of SiteOrigin Unwind
+ Theme URI:    https://siteorigin.com/theme/unwind/
+ Description:  Child Theme of SiteOrigin Unwind
+ Author:       Wes Kempfer
+ Author URI:   https://tnotw.com
+ Template:     siteorigin-unwind
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  siteorigin-unwind-child
+*/
+
+
+h3 {
+  font-size: 24px ;
+}
+
+p {
+  font-size: 16px;
+}
+
+label {
+  font-size: 16px;
+  color: #626262
+}
+aside#secondary label,
+#colophon label {
+  color: #fbfff2;
+}
+
+aside#secondary a,
+#colophon a {
+  color: #24c48a !important;
+}
+
+aside#secondary a:hover,
+#colophon a:hover {
+  color: #00a76a !important;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"] {
+  font-size: 16px;
+  outline: none;
+  padding: 0px 10px;
+}
+
+#colophon input[type="text"],
+#colophon input[type="email"],
+#colophon input[type="url"],
+#colophon input[type="password"],
+#colophon input[type="search"],
+#colophon input[type="number"],
+#colophon input[type="tel"],
+#colophon input[type="range"],
+#colophon input[type="date"],
+#colophon input[type="month"],
+#colophon input[type="week"],
+#colophon input[type="time"],
+#colophon input[type="datetime"],
+#colophon input[type="datetime-local"],
+#colophon input[type="color"],
+#colophon textarea {
+  color: #fbfff2;
+}
+
+
+
+.content-area {
+  background: #ffffff;
+  padding: 0;
+}
+
+#content > .container:first-child {
+  padding: 0;
+}
+
+.ct-logo-container {
+  max-width: 75px;
+  max-height: 75px;
+  width: 75px;
+  height: 75px;
+  float: left;
+  margin-right: 30px;
+}
+
+.home #masthead, .archive #masthead, .search #masthead {
+  margin-bottom: 0;
+}
+
+.the-problem-cell {
+  height: 350px;
+  min-height: 350px;
+}
+
+#the-problem-row .panel-grid-cell {
+  align-self: stretch;
+}
+
+.the-problem-cell .so-panel {
+  height: 100%;
+  padding: 0;
+}
+
+#the-problem-row .panel-grid-cell {
+  margin-bottom: 0;
+}
+
+#donotlethishappen p {
+  text-align: center;
+  font-size: 31px;
+}
+
+#donotlethishappen a {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#donotlethishappen a:hover {
+  color: #4fdcfb;
+}
+
+#warning-cell {
+  background: red;
+}
+#warning-cell .so-panel {
+  background: red;
+  color: #ffffff;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  height: 350px;
+  min-height: 350px;
+
+}
+
+#stats-cell .so-panel {
+  display: flex;
+  align-items: center;
+
+  background: #000000;
+
+}
+
+#hacked-image {
+  background: linear-gradient(80deg, #ff0000, #ffff00);
+  background-size: 400% 400%;
+
+  -webkit-animation: hacked 1s ease infinite;
+  -moz-animation: hacked 1s ease infinite;
+  animation: hacked 1s ease infinite;
+
+}
+
+@-webkit-keyframes hacked {
+  0%{background-position:26% 0%}
+  50%{background-position:75% 100%}
+  100%{background-position:26% 0%}
+}
+@-moz-keyframes hacked {
+  0%{background-position:26% 0%}
+  50%{background-position:75% 100%}
+  100%{background-position:26% 0%}
+}
+@keyframes hacked {
+  0%{background-position:26% 0%}
+  50%{background-position:75% 100%}
+  100%{background-position:26% 0%}
+}
+
+
+#warning-cell .so-panel {
+
+}
+
+.the-problem-cell .so-panel {
+  padding: 50px 15px;
+}
+
+#the-solution-row {
+  background: #f0f0f0;
+  padding: 50px 30px 20px 30px;
+}
+
+.lightgrey-bg {
+  background: #f0f0f0;
+}
+
+
+#colophon {
+  margin-top: 0;
+}
+
+#colophon.footer-active-sidebar {
+  background: #0c5789;
+  border-top: 1px solid #00cbd9;
+  color: #fbfff2 !important;
+}
+
+#colophon .site-info {
+  background: #000000;
+  border-top: none;
+  color: #fbfff2 !important;
+  padding: 0 0 30px 0;
+}
+
+#colophon .widgets {
+  padding: 40px 0;
+}
+
+.masthead-site-title-area {
+  margin-top: 45px;
+  font-size: 3.5em;
+}
+
+.masthead-site-title-area a {
+  color: #fbfff2 !important;
+}
+
+.masthead-site-title-area a:hover {
+  color: #fbfff2 !important;
+}
+
+.masthead-site-description-area {
+  margin-top: 70px;
+  color: #fbfff2;
+  letter-spacing: 2px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0c5789+0,207cca+50,00cbd9+100 */
+  background: #0c5789; /* Old browsers */
+  background: -moz-linear-gradient(left, #0c5789 0%, #207cca 50%, #00cbd9 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #0c5789 0%,#207cca 50%,#00cbd9 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #0c5789 0%,#207cca 50%,#00cbd9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c5789', endColorstr='#00cbd9',GradientType=1 ); /* IE6-9 */
+}
+
+#masthead #masthead-widgets {
+  margin: 20px auto;
+}
+
+.main-navigation > div li {
+  padding-right: 25px;
+}
+
+.main-navigation > div li a {
+  font-size: 13px;
+}
+.main-navigation > div ul ul a {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.main-navigation > div li a:hover,
+.main-navigation > div ul ul a:hover {
+  color: #00cbd9;
+}
+
+#page {
+}
+
+#colophon .widget .widget-title {
+  color: #fbfff2 !important;
+  font-size: 1.2em;
+  line-height: normal;
+  margin: 0 0 1.6em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.testimonial-slider {
+  position: relative;
+  overflow: hidden;
+  height: 190px;
+}
+
+.testimonial-container {
+  display: block;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: opacity 2s linear 1s;
+  transition: opacity 2s linear 1s;
+}
+
+.ct-hidden {
+  opacity: 0;
+}
+
+
+.no-clear {
+  clear: none;
+}
+
+.green-bg {
+  background: #a5c76a ;
+}
+
+.rates-table h3 {
+  color: #fbfff2;
+}
+
+.rates-table table {
+  border: none;
+  color: #fbfff2;
+
+}
+
+.rates-table table tr:nth-child(even) {
+  background-color: transparent;
+}
+
+.home .widget-title {
+  margin-bottom: 40px;
+}
+
+.sticky-menu.sticky-bar-out #masthead .sticky-bar,
+#masthead .top-bar {
+  border-bottom: none;
+}
+
+.contact-message {
+  height: 10em;
+  width: 40em;
+  max-width: 100%;
+}
+
+form p {
+  margin-bottom: 0 !important;
+}
+
+form p.form-text {
+  margin-top: 15px;
+  margin-bottom: 15px !important;
+}
+
+.footer-contact-form {
+  width: 80%;
+}
+
+.footer-map p {
+  margin-bottom: 0 !important;
+}
+
+#panel-w599f4f57d3481-0-2-0 {
+  margin-bottom: 5px !important;
+}
+
+.masthead-mobile {
+  display: none !important;
+}
+
+.masthead-mobile .masthead-site-description-area  {
+  margin-top: 0;
+}
+
+.masthead-mobile .masthead-site-title-area  {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 930px ) {
+  .masthead-desktop {
+    display: none !important;
+  }
+  .masthead-mobile {
+    display: flex !important;
+  }
+
+  #masthead #masthead-widgets {
+    max-height: 180px;
+  }
+
+  .masthead-mobile .masthead-site-title-area  {
+    font-size: 2.5em;
+  }
+
+}
+
+@media screen and (max-width: 580px ) {
+  .masthead-mobile .masthead-site-title-area  {
+    font-size: 2.0em;
+  }
+}
+
+@media screen and (max-width: 420px ) {
+  .masthead-mobile .masthead-site-title-area  {
+    font-size: 1.6em;
+  }
+  #content > .container:first-child {
+    padding: 0;
+  }
+
+
+}
+
+@media screen and (max-width: 350px ) {
+  .masthead-mobile .masthead-site-title-area  {
+    font-size: 1.4em;
+  }
+}
+
+aside#secondary {
+  background: #0c5789;
+}
+
+aside#secondary .widget .widget-title {
+  color: #fbfff2 !important;
+  font-size: 1.2em;
+  line-height: normal;
+  margin: 0 0 1.6em;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.feature-chalk {
+  width: 400px;
+  position: absolute;
+  top: 151px;
+  left: 50%;
+  color: #ffffff;
+  font-size: 1.5vw;
+}
+
+
+
+
+
+
+
