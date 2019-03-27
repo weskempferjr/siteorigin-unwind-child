@@ -428,12 +428,28 @@ aside#secondary .widget .widget-title {
 }
 
 .feature-chalk {
-  width: 400px;
+  width: 55%5;
   position: absolute;
-  top: 151px;
+  top: 25px;
   left: 50%;
-  color: #ffffff;
-  font-size: 1.5vw;
+  color: #016da0;
+  font-size: 2.2vw;
+}
+
+.feature-chalk-widget .sow-slider-image {
+  background-position-y: -110px !important;
+}
+
+@media screen and ( max-width: 780px ) {
+
+  .feature-chalk {
+    font-size: 2.8vw !important;
+  }
+
+  .feature-chalk-widget .sow-slider-image {
+    background-position-y: -60px !important;
+
+  }
 }
 
 
