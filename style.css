@@ -32,12 +32,12 @@ aside#secondary label,
 
 aside#secondary a,
 #colophon a {
-  color: #24c48a !important;
+  color: #ff80ab !important;
 }
 
 aside#secondary a:hover,
 #colophon a:hover {
-  color: #00a76a !important;
+  color: #fff3d4 !important;
 }
 
 
@@ -208,16 +208,16 @@ input[type="color"] {
 }
 
 #colophon.footer-active-sidebar {
-  background: #0c5789;
-  border-top: 1px solid #00cbd9;
+  background: #194254;
+  border-top: none;
   color: #fbfff2 !important;
 }
 
 #colophon .site-info {
-  background: #000000;
-  border-top: none;
-  color: #fbfff2 !important;
-  padding: 0 0 30px 0;
+  background: #194254;
+  border-top: 1px solid #fbfff2;
+  color: #ead377 !important;
+  padding: 15px 0 15px 0;
 }
 
 #colophon .widgets {
@@ -274,7 +274,7 @@ input[type="color"] {
 }
 
 #colophon .widget .widget-title {
-  color: #fbfff2 !important;
+  color: #ead377 !important;
   font-size: 1.2em;
   line-height: normal;
   margin: 0 0 1.6em;
