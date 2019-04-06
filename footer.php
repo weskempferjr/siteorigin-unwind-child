@@ -35,7 +35,13 @@
 		<div class="site-info">
 			<div class="container">
 				<?php
-				siteorigin_unwind_footer_text();
+				$text = "{year}&copy;{sitename}";
+				$text = str_replace(
+					array( '{sitename}', '{year}' ),
+					array( get_bloginfo( 'sitename' ), date( 'Y' ) ),
+					$text
+				);
+				echo wp_kses_post( $text ) . '&nbsp;';
 
 
 				/* $credit_text = apply_filters(

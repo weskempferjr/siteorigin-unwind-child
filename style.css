@@ -25,6 +25,48 @@ label {
   font-size: 16px;
   color: #626262
 }
+
+a {
+  color: #194254;
+  text-decoration: none; }
+a:hover, a:focus {
+  color: #5ea7c7; }
+a:hover, a:active {
+  outline: 0; }
+
+
+#masthead {
+  border-bottom: none;
+  margin-bottom: 35px;
+}
+
+
+.button, #page #infinite-handle span button, button, input[type="button"], input[type="reset"], input[type="submit"], .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce #page #infinite-handle span button, #page #infinite-handle span .woocommerce button, .woocommerce input.button, .woocommerce.single-product .cart button {
+  background: #fff;
+  border: 2px solid;
+  border-color: #ebebeb;
+  border-radius: 5px;
+  color: #194254;
+  font-family: "Roboto", sans-serif;
+  font-size: 13.8656px;
+  font-size: 0.8666rem;
+  line-height: 1;
+  letter-spacing: 1.5px;
+  outline-style: none;
+  padding: 1em 1.923em;
+  transition: .3s;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button:hover, #page #infinite-handle span button:hover, button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce #page #infinite-handle span button:hover, #page #infinite-handle span .woocommerce button:hover, .woocommerce input.button:hover, .woocommerce.single-product .cart button:hover {
+  background: #fff;
+  border-color: #5ea7c7;
+  color: #53a7c7;
+}
+
+
+
 aside#secondary label,
 #colophon label {
   color: #fbfff2;
@@ -80,7 +122,16 @@ input[type="color"] {
   color: #fbfff2;
 }
 
+.post-navigation a:hover {
+  color: #5ea7c7; }
 
+.blog-layout-alternate .archive-entry .entry-content .more-link .more-text {
+  border: none;
+  color: #5ea7c7;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.0769em;
+  letter-spacing: normal;
+  padding: 0; }
 
 .content-area {
   background: #ffffff;
@@ -133,7 +184,7 @@ input[type="color"] {
 }
 
 #donotlethishappen a:hover {
-  color: #4fdcfb;
+  color: #ead377;
 }
 
 #warning-cell {
@@ -215,7 +266,7 @@ input[type="color"] {
 
 #colophon .site-info {
   background: #194254;
-  border-top: 1px solid #fbfff2;
+  border-top: 1px solid #ead377;
   color: #ead377 !important;
   padding: 15px 0 15px 0;
 }
@@ -258,16 +309,30 @@ input[type="color"] {
 }
 
 .main-navigation > div li a {
-  font-size: 13px;
-}
-.main-navigation > div ul ul a {
-  font-size: 13px;
+  font-size: 20px !important;
   text-transform: uppercase;
+  color: #2d2d2d;
+  font-family: "Bangers", sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  line-height: 38px;
+}
+
+.main-navigation > div ul ul a {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #2D2D36;
+  font-family: "Bangers", sans-serif;
+  font-size: 12.8px;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  line-height: 38px;
 }
 
 .main-navigation > div li a:hover,
 .main-navigation > div ul ul a:hover {
-  color: #00cbd9;
+  color: #ff80ab;
+  text-shadow: 2px 1px 0px #000000;
 }
 
 #page {
@@ -454,6 +519,60 @@ aside#secondary .widget .widget-title {
   }
 }
 
+
+body:not(.home) .site-content {
+  margin: 0 100px;
+}
+
+@media screen and (max-width: 780px ) {
+  body:not(.home) .site-content {
+    margin: 0 50px;
+  }
+}
+
+@media screen and (max-width: 450px ) {
+  body:not(.home) .site-content {
+    margin: 0 30px;
+  }
+}
+
+img.sign-up-burst {
+  width: 40% !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(8px 8px 10px gray)
+}
+
+.sign-up-button {
+  position: absolute;
+  left: 49.5%;
+  top: 47.5%;
+  transform: translate(-50%, -50%);
+
+
+}
+
+.sign-up-button a {
+  font-size: 6vw;
+  color: #000000;
+}
+
+.sign-up-button a:hover {
+  color: #ff80ab;
+  text-shadow: 3px 5px 0px #000000;
+}
+
+
+
+
+#sign-up-row .sow-slider-image-container {
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow: inset 0 10px 10px -10px #000000, inset 0 -10px 10px -10px #000000;
+
+}
 
 
 
