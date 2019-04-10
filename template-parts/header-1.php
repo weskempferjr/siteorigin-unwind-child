@@ -7,6 +7,11 @@
                 <?php the_widget( 'SiteOrigin_Widget_SocialMediaButtons_Widget', $widget ); ?>
                 <span class="v-line"></span>
             <?php endif; ?>
+	        <?php if ( is_user_logged_in() ) : ?>
+                <a class="user-util" title="Log Out" href="/wp-login.php?action=logout"><i class="fa fa-user"></i></a>
+	        <?php else : ; ?>
+                <a class="user-util" title="Log In" href="/login"><i class="fa fa-user"></i></a>
+	        <?php endif; ?>
             <?php if ( siteorigin_setting( 'navigation_search' ) ) : ?>
                 <button id="search-button" class="search-toggle">
                     <span class="open"><?php siteorigin_unwind_display_icon( 'search' ); ?></span>

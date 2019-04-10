@@ -575,6 +575,16 @@ img.sign-up-burst {
 }
 
 
+a.user-util {
+  font-family: 'FontAwesome';
+  margin-right: 20px;
+  margin-left: 5px;
+}
+
+.social-search {
+  margin-top: -10px;
+}
+
 
 
 
